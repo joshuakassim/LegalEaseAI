@@ -6,7 +6,7 @@ import {
   ChevronDown,
   ChevronUp,
 } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
+import { Card, CardHeader, CardTitle, CardContent } from './ui/Card';
 import { Button } from './ui/button';
 
 export const SummaryDisplay = ({ summaryData }) => {

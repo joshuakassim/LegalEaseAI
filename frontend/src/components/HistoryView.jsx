@@ -1,6 +1,6 @@
 import React from 'react';
 import { History, FileText } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
+import { Card, CardHeader, CardTitle, CardContent } from './ui/Card';
 
 export const HistoryView = () => {
   const sampleHistory = [
