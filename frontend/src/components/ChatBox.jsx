@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { MessageSquare, Bot, User } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from './ui/Card';
-import { Input } from './ui/input';
-import { Button } from './ui/button';
+import { Input } from './ui/Input';
+import { Button } from './ui/Button';
 
 export const ChatBox = ({ docId }) => {
   const [messages, setMessages] = useState([

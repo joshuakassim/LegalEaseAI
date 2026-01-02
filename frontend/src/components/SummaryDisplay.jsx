@@ -7,7 +7,7 @@ import {
   ChevronUp,
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from './ui/Card';
-import { Button } from './ui/button';
+import { Button } from './ui/Button';
 
 export const SummaryDisplay = ({ summaryData }) => {
   const [expandedSections, setExpandedSections] = useState([0]);

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Upload, FileText } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from './ui/Card';
-import { Input } from './ui/input';
-import { Textarea } from './ui/textarea';
-import { Button } from './ui/button';
+import { Input } from './ui/Input';
+import { Textarea } from './ui/Textarea';
+import { Button } from './ui/Button';
 
 export const UploadCard = ({
   file,
