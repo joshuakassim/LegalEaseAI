@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MessageSquare, Bot, User } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from './ui/card';
+import { Card, CardHeader, CardTitle, CardContent } from './ui/Card';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 
