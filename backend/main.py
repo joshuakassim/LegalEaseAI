@@ -6,8 +6,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from google import genai
 from google.genai import types
 import io
+from dotenv import load_dotenv
 import PyPDF2
 
+load_dotenv()
 # Initialize FastAPI app
 app = FastAPI()
 
